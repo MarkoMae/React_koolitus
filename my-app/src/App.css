@@ -1,0 +1,21 @@
+.my-text {
+  color: red;
+  background-color: gray;
+
+}
+
+.main-button {
+  color: indigo;
+  background-color: lavender;
+  border: none;
+  cursor: pointer;
+  padding: 100px;
+
+}
+
+.main-button:hover {
+background-color: lavenderblush;
+}
+.main-button:active {
+  background-color: lightgray;
+}
