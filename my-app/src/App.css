@@ -1,21 +1,36 @@
-.my-text {
-  color: red;
-  background-color: gray;
 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(156, 156, 201);
+} 
+
+.my-text {
+  color: blue;
 }
 
 .main-button {
-  color: indigo;
-  background-color: lavender;
+  color: lightgray;
+  background-color: limegreen;
   border: none;
-  cursor: pointer;
-  padding: 100px;
+  padding: 8px;
 
 }
 
-.main-button:hover {
-background-color: lavenderblush;
-}
 .main-button:active {
-  background-color: lightgray;
+cursor: grab;
+}
+body {
+  background-color: beige;
+}
+
+.footer {
+background-color: beige;
+height: 25px;
+}
+
+.item-image {
+  height: 100px;
+  
 }
